@@ -1,0 +1,21 @@
+{
+  "name": "Menu App",
+  "short_name": "MenuApp",
+  "lang": "ja",
+  "start_url": "/menuapp/public/week.php",
+  "scope": "/menuapp/public/",
+  "display": "standalone",
+  "background_color": "#fffdf7",
+  "theme_color": "#ff7eb9",
+  "icons": [
+    { "src": "/menuapp/public/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/menuapp/public/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/menuapp/public/icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/menuapp/public/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "週の献立", "url": "/menuapp/public/week.php" },
+    { "name": "買い物リスト", "url": "/menuapp/public/shopping_list.php" },
+    { "name": "レシピ", "url": "/menuapp/public/recipes/" }
+  ]
+}
